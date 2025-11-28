@@ -1,0 +1,69 @@
+/* Card */
+.af-tb-card {
+    border-top: 5px;
+    background-color:white;
+    border-radius: 7px;
+    padding:20px;
+    margin-bottom: 7px;
+    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+/* End Card */
+
+
+/* Media queris */
+@media (max-width: 1530px) {
+    .af-tb-card {
+        display: block;
+    }
+
+    .sidebar {
+        display: none !important;
+    }
+        /*Begin table*/
+    .table-card{
+        background-color:white;
+        padding:20px
+    }
+
+    table-responsive{
+        font-size: small !important;
+    }
+
+    .table>:not(caption)>*>* {
+        padding-left: 0.5rem 0.5rem !important;
+    }
+
+    .table>:not(:last-child)>:last-child>* {
+        padding: 15px !important;
+    }
+
+    thead{
+        background-color: chocolate;
+        color: #fff;
+        border-bottom: 4px;
+        border-bottom-color: #afb0b3; /*#03163a;*/
+        border-bottom-style: solid;
+    }
+
+    tfoot{
+        display: flex;
+        padding-top: 20px;
+        color: chocolate;
+        font-weight: 600;
+        width: max-content;
+    }
+    /*End Table*/
+
+
+}
+
+@media (min-width: 800px) {
+    .af-tb-card {
+        display: block;
+    }
+
+    /*End Table*/
+
+
+}

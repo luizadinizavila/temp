@@ -1,0 +1,231 @@
+/*.size-fixed {
+    max-width: 96%;
+}*/
+/*.tableFixHead {
+    height: 70vh;
+}*/
+
+.table-params{
+    height: calc(100vh - 185px);
+    max-height: 100%;
+}
+
+/* Card */
+.af-tb-card {
+    border-top: 5px;
+    background-color:white;
+    border-radius: 7px;
+    padding:10px;
+    margin-bottom: 7px;
+    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+/* End Card */
+
+
+/* Media queries Tablet 7 polegadas positivo */
+@media (min-width: 786px) and (max-width: 1024px){
+    
+/*    .table-params{
+        height: calc(100vh - 185px) !important;
+        max-height: 100%;
+    }*/
+
+    .article {
+        padding-left: .5rem !important;
+        padding-right: .5rem !important;
+    }
+
+    .logoh{
+        display: block !important;
+    }
+
+    .px-4 {
+        padding-right: 1rem!important;
+        padding-left: 0rem!important;
+    }
+    
+    .af-tb-card {
+        display: block;
+    }
+
+    #filtros {
+        display: block !important;
+    }
+
+    .sidebar {
+        display: none !important;
+    }
+
+    .row>* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: 8px !important;
+        margin-top: var(--bs-gutter-y);
+    }
+        
+    /*Begin table*/
+/*    .table-card{
+        background-color:white;
+        padding:20px
+    }
+
+    table-responsive{
+        font-size: small !important;
+    }*/
+
+    /* cards info */
+    .dash-card-body {
+        padding: .1rem .5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .dash-card-body h4 {
+        color: black !important;
+        font-size: 1rem !important;
+        margin-top: 0rem !important;
+    }
+
+    .dash-card-body h5 {
+        color: gray;
+        font-size: .9rem !important;
+    }
+    /* .dash-card-body span {
+        font-size: 1.8rem;
+        color: chocolate;
+        padding-right: 1rem;
+    } */
+    .af-ds-card-exames {
+        width: 100px !important;
+    }
+    .af-ds-card-Pacientes {
+        width: 100px !important;
+    }
+    .af-ds-card-data {
+        width: 130px !important;
+    }
+    .af-ds-card-atendimentos {
+        width: 95px !important;
+    }
+    .af-ds-card-confirmacoes {
+        width: 87px !important;
+    }
+
+    .af-ds-card-enviados {
+        width: 87px !important;
+    }
+
+    .af-ds-card-nao-enviados {
+        width: 96px !important;
+    }
+    .af-ds-card-percentual-atendimentos {
+        width: 110px !important;
+    }
+    .af-ds-card-percentual-falta {
+        width: 110px !important;
+    }
+    .af-ds-card-percentual-falta-conf {
+        width: 125px !important;
+    }
+    /* end cards info */
+
+
+    /* .table>:not(caption)>*>* {
+        padding-left: 0.5rem 0.5rem !important;
+    }
+
+    .table>:not(:last-child)>:last-child>* {
+        padding: 15px !important;
+    }
+
+    
+
+    thead{
+        background-color: chocolate;
+        color: #fff;
+        border-bottom: 4px;
+        border-bottom-color: #afb0b3; 
+        border-bottom-style: solid;
+    }
+
+    tfoot{
+        display: flex;
+        padding-top: 20px;
+        color: chocolate;
+        font-weight: 600;
+        width: max-content;
+    } */
+
+
+    :root {
+    
+
+        --rz-grid-header-color: #fff !important;
+        --rz-grid-header-cell-border: !important;
+        --rz-grid-header-sorted-background-color: #fff !important;
+        --rz-grid-header-font-size: .9rem !important;
+        --rz-grid-sort-icon-color: #fff !important;
+        --rz-grid-hover-background-color: #F5ECCE !important;
+        --rz-grid-hover-color: chocolate !important;
+        --rz-grid-selected-color: chocolate !important;
+        --rz-grid-selected-background-color: #F5ECCE !important;
+        --rz-grid-cell-font-size: 1rem !important;
+        /* --rz-grid-cell-padding: 2rem 0.5rem 2rem 0.5rem; */
+        --rz-grid-right-cell-border: !important;
+        /* --rz-grid-cell-line-height: 2.4rem !important; */
+        
+        
+    }
+
+    /*Begin spinner*/
+    .spinner {
+        z-index: 999;
+        display: block;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        margin-top: 60px;
+        border-radius: 100%;
+        top: 200px !important;
+        left: 50% !important;
+        margin-left: -50px;
+        background-color: #e9e9e946;
+    }
+
+    .opt-spinner {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        margin: 0 auto;
+    }
+    /*End spinner*/
+
+
+    /*End midia queries Table*/
+
+
+}
+
+@media (min-width: 800px) {
+    .af-tb-card {
+        display: block;
+    }
+
+    #filtros {
+        display: binline-flexbox !important;
+    }
+
+    /*End Table*/
+
+
+}
+
+@media (max-width: 1400px) {
+    .atendimento-scroll {
+        max-height: calc(99vh - 56px);
+        overflow-y: scroll;
+    }
+}
